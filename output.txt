@@ -1,0 +1,39 @@
+Command: bitcoin-cli -regtest getblockchaininfo
+
+Output:
+{
+  "chain": "regtest",
+  "blocks": 0,
+  "headers": 0,
+  "verificationprogress": 1.0,
+  "initialblockdownload": false
+}
+
+Command: bitcoin-cli -regtest getnetworkinfo
+
+Output:
+{
+  "relayfee": 0.00000100,
+  "incrementalfee": 0.00000100,
+  "localaddresses": [],
+  "warnings": [
+        "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"
+  ]
+}
+
+Command: bitcoin-cli -regtest createwallet "assignmentwallet"
+
+Output:
+{
+  "name": "assignmentwallet"
+}
+
+Command: bitcoin-cli -regtest getnewaddress
+
+Output:
+bcrt1qdjrs4latf5f63q0jdd3afxnmz69gl724lyagff
+
+Command: bitcoin-cli -regtest getbalance
+
+Output:
+0.00000000
