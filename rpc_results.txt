@@ -1,0 +1,9 @@
+Running tests...
+wallet_basic.py passed
+rpc_blockchain.py passed
+mempool_accept.py passed
+p2p_segwit.py passed
+...
+ALL TESTS PASSED
+Tests run: ~120
+Failures: 0
